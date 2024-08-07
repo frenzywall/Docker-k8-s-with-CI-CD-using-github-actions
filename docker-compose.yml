@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  myservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-script-container
+    volumes:
+      - ./your_script.sh:/scripts/your_script.sh
+      - myscript-log:/var/log  
+    restart: unless-stopped
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+      - TZ=Asia/Kolkata
+
+volumes:
+  myscript-log:
