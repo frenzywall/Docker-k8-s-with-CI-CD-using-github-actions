@@ -1,1 +1,1 @@
-30 8 * * * /scripts/your_script.sh >> /var/log/cron.log 2>&1
+2 10 * * * /scripts/your_script.sh >> /var/log/cron.log 2>&1

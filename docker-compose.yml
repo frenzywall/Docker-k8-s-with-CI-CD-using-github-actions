@@ -8,6 +8,7 @@ services:
     container_name: my-script-container
     volumes:
       - ./your_script.sh:/scripts/your_script.sh
+      - ./crontab:/etc/cron.d/my-cron-job
       - myscript-log:/var/log  
     restart: unless-stopped
     environment:
