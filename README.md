@@ -7,7 +7,7 @@ This project demonstrates how to build, deploy, and run a Docker container using
 
 ![wait..](images/1.png)
 
-![wait..](images/2.png)
+
 
 ## Project Structure
 
@@ -16,6 +16,9 @@ This project demonstrates how to build, deploy, and run a Docker container using
 - `your_script.sh`: A script executed by the cron job, which installs Docker, Minikube, and kubectl, and sets up Minikube.
 - `crontab`: Specifies the cron schedule and the script to run.
 - `.github/workflows/ci.yml`: GitHub Actions workflow for building, pushing, and running the Docker container.
+
+- ![wait..](images/2.png)
+- 
 
 ## Setup Instructions
 
