@@ -5,9 +5,9 @@
 
 This project demonstrates how to build, deploy, and run a Docker container using GitHub Actions and Docker Compose. It includes a cron job within the Docker container to execute a script at scheduled intervals.
 
-![wait..]([/Docker-k8-s-with-CI-CD-using-github-actions/images/1.png](https://github.com/frenzywall/Docker-k8-s-with-CI-CD-using-github-actions/blob/main/images/1.png))
-![wait..]([/Docker-k8-s-with-CI-CD-using-github-actions/images/2.png](https://github.com/frenzywall/Docker-k8-s-with-CI-CD-using-github-actions/blob/main/images/1.png))
+![wait..](images/1.png)
 
+![wait..](images/2.png)
 
 ## Project Structure
 
